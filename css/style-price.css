@@ -1,0 +1,123 @@
+.price-list-header {
+    padding-top: 150px;
+    width: calc(100% - 400px);
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+}
+
+.price-list-header p:nth-child(1) {
+    flex: 1;
+}
+
+.price-list-header p:nth-child(2) {
+    width: 180px;
+}
+
+.price-list-header p:nth-child(3) {
+    width: 150px;
+}
+
+.price-list {
+    width: calc(100% - 400px);
+    margin-left: 200px;
+    margin-right: 200px;
+    display: block;
+}
+
+.price-header {
+    display: flex;
+    transition: all .3s ease-out;
+    color: #fff;
+    height: fit-content;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.price-header h2 {
+    font-weight: bold;
+}
+
+.price-item {
+    display: flex;
+    transition: all .3s ease-out;
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  /* height: 30px; */
+}
+
+.price-item:hover, .price-item:hover p, .price-item:hover p span{
+    background-color: #fff;
+    color: #111111;
+    transition: all .3s ease-out;
+}
+
+.price-item p:nth-child(1) {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.price-item p:nth-child(2) {
+    width: 180px;
+}
+
+.price-item p:nth-child(3) {
+    width: 150px;
+}
+
+@media (max-width: 480px) {
+    .background {
+        transition: height 0.1s linear;
+    }
+
+    .price-list-header {
+        padding-top: 100px;
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .price-list-header p:nth-child(1) {
+        flex: 1;
+    }
+
+    .price-list-header p:nth-child(2) {
+        width: 68px;
+    }
+
+    .price-list-header p:nth-child(3) {
+        display: none;
+    }
+
+    .price-list {
+        width: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: block;
+        overflow: hidden;
+    }
+
+    .price-header {
+        cursor: pointer;
+        transition: all 0.3s ease-out;
+    }
+
+    .price-item {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .price-item p:nth-child(1) {
+        flex: 1;
+        padding-right: 10px;
+    }
+
+    .price-item p:nth-child(2) {
+        width: 68px;
+    }
+
+    .price-item p:nth-child(3) {
+        display: none;
+    }
+}

@@ -1,0 +1,190 @@
+/* BEGIN FONTS LOAD*/
+
+@font-face {
+	font-family: 'TildaSansRegular';
+	src: url('TildaSans-Regular.eot');
+	src:
+	     url('TildaSans-Regular.eot?#iefix') format('embedded-opentype'),
+	     url('TildaSans-Regular.woff2') format('woff2'),
+	     url('TildaSans-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TildaSansSemibold';
+	src: url('TildaSans-Semibold.eot');
+	src:
+	     url('TildaSans-Semibold.eot?#iefix') format('embedded-opentype'),
+	     url('TildaSans-Semibold.woff2') format('woff2'),
+	     url('TildaSans-Semibold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TildaSansMedium';
+	src: url('TildaSans-Medium.eot');
+	src:
+	     url('TildaSans-Medium.eot?#iefix') format('embedded-opentype'),
+	     url('TildaSans-Medium.woff2') format('woff2'),
+	     url('TildaSans-Medium.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TildaSansLight';
+	src: url('TildaSans-Light.eot');
+	src:
+	     url('TildaSans-Light.eot?#iefix') format('embedded-opentype'),
+	     url('TildaSans-Light.woff2') format('woff2'),
+	     url('TildaSans-Light.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TildaSansExtraBold';
+	src: url('TildaSans-ExtraBold.eot');
+	src:
+	     url('TildaSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+	     url('TildaSans-ExtraBold.woff2') format('woff2'),
+	     url('TildaSans-ExtraBold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TildaSansBold';
+	src: url('TildaSans-Bold.eot');
+	src:
+	     url('TildaSans-Bold.eot?#iefix') format('embedded-opentype'),
+	     url('TildaSans-Bold.woff2') format('woff2'),
+	     url('TildaSans-Bold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'TildaSansBlack';
+	src: url('TildaSans-Black.eot');
+	src:
+	     url('TildaSans-Black.eot?#iefix') format('embedded-opentype'),
+	     url('TildaSans-Black.woff2') format('woff2'),
+	     url('TildaSans-Black.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+  
+/* END FONTS LOAD*/
+
+
+/* BEGIN FONTS RULES */
+body{
+     color: #000000;
+    font-family: 'TildaSansRegular';
+}
+
+.h1 {
+    color: #000000;
+    font-size: 60px;
+    font-family: 'TildaSansBold';
+    font-weight: bold;
+}
+
+.contacts p{
+     color: #000000;
+    font-size: 18px;
+    font-family: 'TildaSansRegular';
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.045em;
+    text-decoration: none;
+}
+
+.contacts a{
+    text-decoration: none;
+    color: #6b0202;
+}
+  
+.text1 {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'TildaSansRegular';
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.045em;
+    text-decoration: none;
+}
+
+.text2 {
+    color: #000000;
+    font-size: 26px;
+    font-family: 'TildaSansRegular';
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0.045em;
+    text-decoration: none;
+}
+
+.numbers {
+    color: #000000;
+    font-size: 18px;
+    font-family: 'TildaSansRegular';
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.045em;
+    text-decoration: none;
+}
+
+@media (max-width: 1410px) {
+    .h1 {
+        font-size: 32px;
+    }
+    
+    .text1 {
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.045em;
+    }
+
+    .text2 {
+        font-size: 26px;
+        line-height: 30px;
+        letter-spacing: 0.045em;
+    }
+
+    .numbers {
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.045em;
+    }
+}
+
+@media (max-width: 480px) {
+    .h1 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    .text1 {
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.045em;
+    }
+
+    .text2 {
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: 0.045em;
+    }
+
+    .numbers {
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.045em;
+    }
+}
+
+/* BEGIN FONTS RULES */

@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<!-- BEGIN meta -->
+	<meta charset="UTF-8">
+	<title>Prime Auto</title>
+
+	<!-- SEO -->
+	<meta name="description" content="Prime Auto - твой автосервис в Ижевске.">
+	<meta name="author" content="Prime Auto">
+	<meta name="robots" content="index, follow">
+
+	<!-- Open Graph (для красивого превью в соцсетях) -->
+	<meta property="og:title" content="Prime Auto">
+	<meta property="og:description" content="Prime Auto - твой автосервис в Ижевске.">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://pzubstudio.ru/">
+	<meta property="og:image" content="https://pzubstudio.ru/imgs/preview.jpg">
+
+	<!-- Мобильная адаптация -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Поддержка браузеров -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- END meta -->
+
+	<!-- BEGIN favicon -->
+	<link rel="manifest" href="imgs/icons/logo.png">
+	<link rel="shortcut icon" href="imgs/icons/logo.png" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="512x512" href="imgs/icons/logo.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="imgs/icons/logo.png">
+	<link rel="icon" type="image/x-icon" sizes="48x48" href="imgs/icons/logo.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="imgs/icons/logo.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="imgs/icons/logo.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="imgs/icons/logo.png">
+	<!-- END favicon -->
+
+	<!-- BEGIN stylesheet -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- END stylesheet -->
+
+
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body>
+	<!-- BEGIN HEADER -->
+	<header class="header">
+		<nav class="nav">
+			<a class="nav-item" href="price.html">Цены и услуги</a>
+			<a class="nav-item" href="otzivi.html">Отзывы</a>
+			<a class="nav-item" href="index.html">О компании</a>
+			<a class="nav-item" href="index.html" style="font-weight: bold; font-size: 1.5em;">Prime Auto</a>
+			<a class="nav-item" href="service.html">Запись на сервис</a>
+			<a class="nav-item" href="contacts.html">Контакты</a>
+			<a class="nav-item" href="job.html">Вакансии</a>
+		</nav>
+		<nav class="mobile-nav">
+			<button class="mobile-nav-button"><img src="imgs/nav-btn.svg" alt="nav-btn"></button>
+		</nav>
+		<div class="mobile-nav-screen">
+			<button class="mobile-nav-cross"><img src="imgs/nav-cross.svg" alt="nav-cross"></button>
+			<a class="nav-item" href="price.html">Цены и услуги</a>
+			<a class="nav-item" href="otzivi.html">Отзывы</a>
+			<a class="nav-item" href="index.html">О компании</a>
+			<a class="nav-item" href="index.html">Prime Auto</a>
+			<a class="nav-item" href="service.html">Запись на сервис</a>
+			<a class="nav-item" href="contacts.html">Контакты</a>
+			<a class="nav-item" href="job.html">Вакансии</a>
+		</div>
+	</header>
+	<!-- END HEADER -->
+	<!-- BEGIN CONTENT SITE -->
+	<section class="mainlogo">
+		<h1 class="h1 section-title">Отличный уход за машиной по доступным ценам</h1>
+		<p class="text1">Мы предлагаем высококачественные услуги по уходу за автомобилями по выгодным ценам. Почувствуйте разницу профессионального подхода!</p>
+		<button id="zapis">Записаться сейчас</button>	
+	</section>
+	<div class="main_image_container">
+		<img class= "main_image" src="imgs\photogalery\img6.png">
+	</div>
+	<div class="faq">
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Какие виды услуг предоставляет ваш автосервис?</span>
+        <button class="icon">✕</button>
+      </div>
+      <div class="faq-answer">
+        Мы предлагаем широкий спектр услуг: ремонт, техническое обслуживание, мойку, химчистку салона и уход за кузовом.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Как записаться на обслуживание?</span>
+        <button class="icon">✕</button>
+      </div>
+      <div class="faq-answer">
+        Вы можете записаться на обслуживание, позвонив нам по телефону или заполнив форму записи на сайте.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Сколько времени занимает обслуживание автомобиля?</span>
+        <button class="icon">✕</button>
+      </div>
+      <div class="faq-answer">
+        Время обслуживания зависит от типа и сложности работ, индивидуально для каждого автомобиля.
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Как узнать стоимость услуг?</span>
+        <button class="icon">✕</button>
+      </div>
+      <div class="faq-answer">
+        Стоимость услуг зависит от вида и объёма работ.
+      </div>
+    </div>
+
+  </div>
+    <script>
+    document.querySelectorAll('.faq-question').forEach(question => {
+      question.addEventListener('click', () => {
+        const item = question.closest('.faq-item');
+
+        // Закрываем все
+        document.querySelectorAll('.faq-item').forEach(i => {
+          if (i !== item) i.classList.remove('active');
+        });
+
+        // Открываем/закрываем текущий
+        item.classList.toggle('active');
+      });
+    });
+  </script>
+	<!-- END CONTENT SITE -->
+	<!-- BEGIN FOOTER -->
+	<footer class="footer">
+		<div class="footer-link"><a class="text1" href="contacts.html">г. Ижевск,<br>улица Пушкина 10а</a></div>
+		<div class="footer-link"><a class="text1" href="" target="_blank">pochta.ru</a></div>
+		<div class="footer-link"><a class="numbers" href="tel:+79955095652">+7 (995) 509-56-52</a></div>
+		<div class="footer-item"><p class="text1">ИП Иванов Иван Иванович</p></div>
+		<div class="creators"><a class="text1" href="">designed by maryana</a></div>
+		<div class="creators"><a class="text1" href="">maded by AI</a></div>
+	</footer>
+	<!-- END FOOTER -->
+</body>
+<!-- END BODY -->
+</html>
