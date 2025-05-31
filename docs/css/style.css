@@ -650,7 +650,10 @@ textarea {
 }
 .vacancy-banner {
     background: linear-gradient(rgba(0,0,0,0.7)), 
-                url("../imgs/photogalery/img4.jpg") center/cover;
+                url("../imgs/photogalery/img4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
     padding: 100px 20px;
     border-radius: 40px;
 }
@@ -669,7 +672,10 @@ textarea {
 
 .contacts-banner{
   background: linear-gradient(rgba(0,0,0,0.7)), 
-                url("../imgs/photogalery/img3.jpg") center/cover;
+                url("../imgs/photogalery/img3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
     padding: 100px 20px;
     border-radius: 40px;
 }
